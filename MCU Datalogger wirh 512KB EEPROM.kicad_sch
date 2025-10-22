@@ -1,5 +1,20 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "42bee317-dbfe-48a3-8c61-4d6d4a3bba23")
+	(paper "A4")
+	(title_block
+		(title "MCU Datalogger with 512 KB EEPROM and Clock")
+		(date "2025-10-22")
+		(rev "1")
+		(company "Furkan Tatlıses")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
