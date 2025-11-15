@@ -5151,7 +5151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 209.55 82.296 90)
 			(effects
 				(font
