@@ -3085,6 +3085,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 105.41) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5b8212-f85f-43bf-9f60-58f0d40d6d55")
+	)
+	(wire
+		(pts
 			(xy 172.72 83.82) (xy 172.72 80.01)
 		)
 		(stroke
@@ -4333,6 +4343,16 @@
 		)
 		(uuid "8b10a119-2868-4eb8-a4e5-84f020fe7b64")
 	)
+	(label "SCK"
+		(at 137.16 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a9132cd-45f6-40d3-92db-ba43bcf9bfa2")
+	)
 	(label "Vcc"
 		(at 92.71 25.4 0)
 		(effects
@@ -4342,6 +4362,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0e67e84-6011-4f69-adf5-9eac37a4db24")
+	)
+	(label "SCK"
+		(at 36.83 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac972c41-c116-49bd-a41f-138cb9c76950")
 	)
 	(label "D7"
 		(at 170.18 93.98 0)
@@ -7475,6 +7505,16 @@
 		(pin "Vcc" passive
 			(at 44.45 107.95 180)
 			(uuid "a097f5ea-0863-4684-83e7-8b2a8bac115f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" passive
+			(at 44.45 105.41 180)
+			(uuid "ad28ee16-6b1a-41fb-bf41-ff55b6a9746f")
 			(effects
 				(font
 					(size 1.27 1.27)
