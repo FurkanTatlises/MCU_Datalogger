@@ -522,10 +522,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "4_layer_MCU_Datalogger_Gerbers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "4_layer_MCU_datalogger.stl",
       "svg": "",
       "vrml": ""
     },

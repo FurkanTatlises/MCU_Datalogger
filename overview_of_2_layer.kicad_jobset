@@ -1,0 +1,172 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "401b5b33-edb0-40e4-9978-04257fcb12bd",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": false,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": true,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "4_layer_MCU_datalogger.step",
+        "overwrite": false,
+        "subst_models": true,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "user_origin.x": 135.89,
+        "user_origin.y": 99.06,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "8dc52813-52e5-4409-a849-65c0e727e796",
+      "settings": {
+        "back_fp_property_popups": true,
+        "black_and_white": false,
+        "color_theme": "",
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "drawing_sheet": "",
+        "drill_shape": 2,
+        "front_fp_property_popups": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "layers": [
+          "B.Cu",
+          "B.SilkS",
+          "B.CrtYd",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "F.Cu",
+          "F.SilkS",
+          "F.CrtYd",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [
+          "B.Cu",
+          "B.SilkS",
+          "F.Paste",
+          "F.SilkS",
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "pdf_gen_mode": "all-layers-separate-files",
+        "pdf_metadata": true,
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "single_document": false,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false
+      },
+      "type": "pcb_export_pdf"
+    },
+    {
+      "description": "",
+      "id": "41ffc70c-dcad-4ef6-8859-7adc4415cb39",
+      "settings": {
+        "bom_format_preset_name": "",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": "",
+        "fields_group_by": [],
+        "fields_labels": [
+          "#",
+          "Reference",
+          "Value",
+          "Footprint",
+          "Description",
+          "Qty",
+          "Datasheet",
+          "Purpose",
+          "Sim.Pins"
+        ],
+        "fields_ordered": [
+          "${ITEM_NUMBER}",
+          "Reference",
+          "Value",
+          "__Footprint",
+          "Description",
+          "${QUANTITY}",
+          "Datasheet",
+          "__Purpose",
+          "__Sim.Pins"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "MCU Datalogger wirh 512KB EEPROM.csv",
+        "ref_delimiter": "",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "${ITEM_NUMBER}",
+        "string_delimiter": ""
+      },
+      "type": "sch_export_bom"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "c0ca5ba5-5570-4b24-a400-d824e1c9e480",
+      "only": [],
+      "settings": {
+        "output_path": "overview_of_4_layer"
+      },
+      "type": "folder"
+    }
+  ]
+}

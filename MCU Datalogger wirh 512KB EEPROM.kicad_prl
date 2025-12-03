@@ -109,7 +109,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "overview_of_2_layer.kicad_jobset"
+  ],
   "project": {
     "files": []
   },

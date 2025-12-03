@@ -1,0 +1,26 @@
+#ReferenceValueDescriptionQtyDatasheet
+1BT1BatteryMultiple-cell battery1~
+2C10.1uUnpolarized capacitor1~
+3C222pUnpolarized capacitor1~
+4C322pUnpolarized capacitor1~
+5C41uUnpolarized capacitor1~
+6C5100nPolarized capacitor1~
+7D1LEDLight emitting diode1~
+8D2LEDLight emitting diode1~
+9IC1ATMEGA328P-AU1
+10J1Conn_01x04_PinGeneric connector, single row, 01x04, script generated1~
+11J2Conn_01x04_PinGeneric connector, single row, 01x04, script generated1~
+12J3Conn_01x09_PinGeneric connector, single row, 01x09, script generated1~
+13J4Conn_02x03_Odd_EvenGeneric connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)1~
+14R1330Resistor1~
+15R24.7KResistor1~
+16R34.7KResistor1~
+17R410KResistor1~
+18R510KResistor1~
+19R610KResistor1~
+20R7330Resistor1~
+21U124LC1025I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-81http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+22U224LC1025I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-81http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+23U3DS1137S+1
+24Y116 MHzTwo pin crystal1~
+25Y232.768 KHzTwo pin crystal1~
