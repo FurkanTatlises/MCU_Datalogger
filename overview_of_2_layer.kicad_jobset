@@ -17,13 +17,13 @@
         "export_tracks": false,
         "export_zones": false,
         "fill_all_vias": false,
-        "format": "step",
+        "format": "stl",
         "fuse_shapes": false,
         "include_dnp": true,
         "include_unspecified": true,
-        "occt_format": 0,
+        "occt_format": 5,
         "optimize_step": true,
-        "output_filename": "4_layer_MCU_datalogger.step",
+        "output_filename": "2_layer_MCU_datalogger.stl",
         "overwrite": false,
         "subst_models": true,
         "use_drill_origin": false,
@@ -80,6 +80,8 @@
           "In5.Cu",
           "In4.Cu",
           "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
           "F.Cu",
           "F.SilkS",
           "F.CrtYd",
@@ -164,7 +166,7 @@
       "id": "c0ca5ba5-5570-4b24-a400-d824e1c9e480",
       "only": [],
       "settings": {
-        "output_path": "overview_of_4_layer"
+        "output_path": "overview_of_2_layer"
       },
       "type": "folder"
     }
